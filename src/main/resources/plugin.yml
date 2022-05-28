@@ -1,0 +1,23 @@
+name: WorthyHorses
+version: '${project.version}'
+main: me.architetto.worthyhorses.WorthyHorses
+api-version: 1.18
+authors: [ Architetto ]
+commands:
+  worthyhorse:
+    description: spicyhorse command
+    aliases: wh
+
+permissions:
+  worthyhorse.user.eggify:
+    description: drop spawn egg of selected horse
+    default: true
+  worthyhorse.user.stats:
+    description: show horse statistics
+    default: true
+  worthyhorse.admin.tame:
+    description: instantly tame the selected horse
+    default: op
+  worthyhorse.admin.powerup:
+    description: wip
+    default: op
